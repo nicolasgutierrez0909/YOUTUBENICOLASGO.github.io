@@ -1,0 +1,102 @@
+body{
+   text-decoration: none;
+  background-color: gray;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+
+}
+.Inicio
+{
+    color: white;
+   font-family: sans-serif;
+    text-align: center;
+
+}
+
+.menu
+{
+    
+
+    list-style: none;
+    padding: 0;
+    background: red;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    
+    
+}
+.menu li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+
+}
+.menu li
+{
+    display: inline-flex;
+text-align: center;
+
+}
+.menu li a:hover
+{
+background:gray;
+
+}
+.formulario
+{
+    position: relative;
+    text-align: right;
+}
+.Imagenes
+{
+   text-align: center;
+  width: 200px;
+  height: auto;
+  margin: auto;
+  display: block;
+  border: 3px;
+border-color: beige;
+}
+.enlace
+{
+   text-align: center;
+}
+@media all and (min-width:480px)
+    {
+
+        .menu{
+        float:left;
+        width: 20%;
+        }
+        .formulario
+        {
+            float: right;
+        }
+        @media all and (min-width:768px)
+        {
+            .menu{
+                float:left;
+                width: 20%;
+                }
+                .formulario
+                {
+                    float: right;
+                }
+                @media all and (min-width:1024px)
+                {
+                    .menu{
+                        float:left;
+                        width: 20%;
+                        }
+                        .formulario
+                        {
+                            float: right;
+                        }
+                }
+        }
+    }
+    
